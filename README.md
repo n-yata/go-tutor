@@ -4,6 +4,7 @@ $ go mod init example/tutor
 ### 参考
 https://go-tour-jp.appspot.com/list  
 https://go.dev/doc/tutorial/
+https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql-ja
 
 ### コマンド
 ```
@@ -17,5 +18,8 @@ $ go build
 # （C:\Users\xxxx\go\bin\xxx.exeなどに生成される）
 $ go install
 
-
+# mysqlサーバーの起動
+$ mysqld --console
+# ログイン
+$ mysql -u root -p
 ```
