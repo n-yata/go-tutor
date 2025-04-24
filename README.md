@@ -23,3 +23,25 @@ $ mysqld --console
 # ログイン
 $ mysql -u root -p
 ```
+
+### ホワイトリスト必要そうなドメイン
+```
+*.gallerycdn.vsassets.io
+cloud.google.com
+dc.services.visualstudio.com
+dl.google.com
+github.com
+go.googlesource.com
+golang.org
+golang.org/x/*
+gopkg.in
+marketplace.visualstudio.com
+proxy.golang.org
+raw.githubusercontent.com
+sum.golang.org
+update.code.visualstudio.com
+vortex.data.microsoft.com
+vscode-update.azurewebsites.net
+vscode.blob.core.windows.net
+api.github.com
+```
